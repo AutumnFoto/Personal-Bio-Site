@@ -25,8 +25,8 @@ nav {
         background-color:2ec4b6;
       }
       
-      #navLinks {
-        list-style: none;
+      .navLinks {
+        background-color: blanchedalmond;
         text-transform: lowercase;
         display: flex;
       }
@@ -36,21 +36,28 @@ nav {
         padding: 1em;
       }
       
-      #projectsPage {
+      .projectsPage {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         margin: 50px;
-        padding: 0px 75px;}
+        padding: 0px 75px;
+        background-color: ffbf69;}
 
 
 
 .title {
     padding: 1em;
-    font-size: 40px;
+    font-size: 50px;
+    text-emphasis: bold;
+
 }
 
 .bioPage {
     text-align: center;
     
+}
+
+ul {
+    background-color: ffbf69;
 }
