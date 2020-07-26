@@ -1,4 +1,56 @@
 body{
-    background-color: rgb(228, 231, 231);
+    background-color:cbf3f0;
+    text-align: center;
+}
+  
+nav {
+
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 36px;
+        letter-spacing: .045em;
+       
+        
+      }
+      
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 45px 25px 35px;
+        background-color:2ec4b6;
+      }
+      
+      #navLinks {
+        list-style: none;
+        text-transform: lowercase;
+        display: flex;
+      }
+      
+      ul a {
+        display: block;
+        padding: 1em;
+      }
+      
+      #projectsPage {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        margin: 50px;
+        padding: 0px 75px;}
+
+
+
+.title {
+    padding: 1em;
+    font-size: 40px;
 }
 
+.bioPage {
+    text-align: center;
+    
+}
